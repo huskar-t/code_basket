@@ -1,0 +1,8 @@
+syntax = "proto3";
+package web;
+
+message DemoRequest {
+    uint32 user_id = 1;		// 用户id
+    string user_name = 2;	// 用户名
+    string ext = 3;			// 额外字段
+}
