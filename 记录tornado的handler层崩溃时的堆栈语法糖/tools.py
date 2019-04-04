@@ -3,8 +3,6 @@ import functools
 import traceback
 from StringIO import StringIO
 
-
-
 def log_exception(fn):
     """记录handler层异常log"""
     @functools.wraps(fn)
