@@ -15,7 +15,7 @@
 3. 记录tornado框架handler层异常堆栈语法糖                                 (已完成)
 4. tornado框架的服务端webSocket用例及网络异常时解决方案                   (已完成)
 5. tornado关于数据库的讨论                                                (已完成)
-6. tornado框架协程，定时任务，延时任务
+6. tornado框架协程，定时任务，延时任务                                    (已完成)
 7. tornado异步请求
 8. protobuf使用
 9. python中使用redis及已遇到适用场景
