@@ -18,7 +18,7 @@
 6. tornado框架协程，定时任务，延时任务                                    (已完成)
 7. tornado异步请求                                                        (已完成)
 8. protobuf使用                                                           (已完成)
-9. python中使用redis及已遇到适用场景
+9. python中使用redis及已遇到适用场景                                      (已完成)
 10. 使用宝塔面板简化运维
 11. thinkphp框架搭建
 12. thinkphp开发api
