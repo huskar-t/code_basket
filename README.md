@@ -31,3 +31,4 @@
 19. supervisor学习使用
 20. redis事务的坑以及解决办法
 21. scrapy用于接口测试
+22. js以及node.js学习脑图                                                 (已完成)
