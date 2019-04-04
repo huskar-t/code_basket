@@ -11,4 +11,6 @@
 #### 内容
 
 1. tornado+zmq实现异步log
+2. python单例模式实现
+3. 记录tornado框架handler层异常堆栈语法糖
 
