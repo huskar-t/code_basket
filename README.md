@@ -18,7 +18,8 @@
 > * [protobuf使用                                                           (已完成)](https://gitee.com/t102011/code_basket/tree/master/protobuf使用)
 > * [python中使用redis及已遇到适用场景                                      (已完成)](https://gitee.com/t102011/code_basket/tree/master/python中使用redis及已遇到适用场景)
 > * [scrapy用于接口测试                                                     (已完成)](https://gitee.com/t102011/code_basket/tree/master/scrapy用于接口测试)
-> * [sqlalchemy使用以及与tornado的集成                                      (待补充示例)](https://gitee.com/t102011/code_basket/tree/master/sqlalchemy使用以及与tornado的集成)
+> * [sqlalchemy使用以及与tornado的集成                                      (待补充)](https://gitee.com/t102011/code_basket/tree/master/sqlalchemy使用以及与tornado的集成)
+> * [sqlalchemy增删改查                                                     (已完成)](https://gitee.com/t102011/code_basket/tree/master/sqlalchemy增删改查)
 
 
 #### golang部分
