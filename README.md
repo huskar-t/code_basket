@@ -20,6 +20,7 @@
 > * [scrapy用于接口测试                                                     (已完成)](https://gitee.com/t102011/code_basket/tree/master/scrapy用于接口测试)
 > * [sqlalchemy使用以及与tornado的集成                                      (待补充)](https://gitee.com/t102011/code_basket/tree/master/sqlalchemy使用以及与tornado的集成)
 > * [sqlalchemy增删改查                                                     (已完成)](https://gitee.com/t102011/code_basket/tree/master/sqlalchemy增删改查)
+> * [tornado模板初探                                                        (未完成)](https://gitee.com/t102011/code_basket/tree/master/tornado模板初探)
 
 
 #### golang部分

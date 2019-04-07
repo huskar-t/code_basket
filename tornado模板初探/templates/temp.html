@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {#{{}}既可以是变量也可以是表达式#}
+    <title>{{title.join("123123")}}</title>
+</head>
+<body>
+{#{% 控制语句 %}#}
+{#{% if ... %} ... {% elif ... %} ... {% else ... %} ... {% end %}#}
+{#{% for ... in ... %} ... {% end %}#}
+{#{% while ... %} ... {% end %}#}
+{% for item in items%}
+    <i>{{item}}</i>
+{% end %}
+
+</body>
+</html>
