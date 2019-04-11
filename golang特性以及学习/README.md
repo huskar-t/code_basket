@@ -16,3 +16,6 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 * example2.go:for range,对象，继承，接口，组合接口，空接口，类型查询，类型强转
 * example3.go:并发，并发通信，通道，select，异常处理
 * example4.go:与C交互
+
+#### ProgramPractice
+* [命令行参数：CLFlags.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/CLFlags.go)
