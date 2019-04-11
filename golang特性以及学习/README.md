@@ -19,3 +19,13 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 
 #### ProgramPractice
 * [命令行参数：CLFlags.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/CLFlags.go)
+* [接口编程：interfaceProgramming.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/interfaceProgramming.go)
+* [同步通道：syncChannel.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/syncChannel.go)
+* [select：select.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/select.go)
+* [超时：timeout.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/timeout.go)
+* [非阻塞通道：nonBlockingChannel.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/nonBlockingChannel.go)
+* [timer：exampleTimer.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/exampleTimer.go)
+* [ticker：exampleTicker.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/exampleTicker.go)
+* [工作池：workerPool.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/workerPool.go)
+* [有状态的goroutine：statefulGoroutines.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/statefulGoroutines.go)
+* [互斥锁保证资源同步访问：mutex.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/mutex.go)
