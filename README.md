@@ -44,3 +44,4 @@
 #### 杂项
 > * [redis事务的坑以及解决办法                                             (已完成)](https://gitee.com/t102011/code_basket/tree/master/redis事务的坑以及解决办法)
 > * [js以及node.js学习脑图                                                 (已完成)](https://gitee.com/t102011/code_basket/tree/master/js以及node.js学习脑图)
+> * [SQL备忘                                                               (已完成)](https://gitee.com/t102011/code_basket/tree/master/SQL备忘)
