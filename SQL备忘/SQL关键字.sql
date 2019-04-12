@@ -71,3 +71,8 @@ GROUP BY Customer,OrderDate
 SELECT Customer,SUM(OrderPrice) FROM Morders
 GROUP BY Customer
 HAVING SUM(OrderPrice)<2000
+
+-- 事务
+BEGIN --开始一个事务
+ROLLBACK --事务回滚
+COMMIT --事务确认
