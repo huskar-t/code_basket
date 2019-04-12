@@ -30,3 +30,4 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 * [工作池：workerPool.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/workerPool.go)
 * [有状态的goroutine：statefulGoroutines.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/statefulGoroutines.go)
 * [互斥锁保证资源同步访问：mutex.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/mutex.go)
+* [字符串转数字类型：parseNumber.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/parseNumber.go)
