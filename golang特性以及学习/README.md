@@ -11,6 +11,7 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 5. golang快速入门：https://www.jianshu.com/p/54885c8af9f3
 6. Go by Example：https://gobyexample.com/
 7. 易百教程：https://www.yiibai.com/go
+8. astaxie的GitHub：https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md
 
 #### example内容：参照(https://www.jianshu.com/p/54885c8af9f3)
 * example.go:字典，函数，匿名函数，switch，case
@@ -32,3 +33,4 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 * [互斥锁保证资源同步访问：mutex.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/mutex.go)
 * [字符串转数字类型：parseNumber.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/parseNumber.go)
 * [简易rpc：rpcDemo](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/rpcDemo/)
+* [restful简单实现：restful.go](https://gitee.com/t102011/code_basket/tree/master/golang特性以及学习/practice/restful.go)
