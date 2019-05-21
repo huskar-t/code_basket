@@ -38,6 +38,8 @@
 > * [内网gitlab搭建以及配置内网dns服务器                                   (已完成)](内网gitlab搭建以及配置内网dns服务器)
 > * [Portainer安装(轻量级docker管理)                                   (已完成)](portainer)
 > * [docker 网络模式备注                                   (已完成)](docker网络备注)
+> * [consul操作备注                                   (已完成)](consul操作备注)
+> * [dockerfile经验                                   (已完成)](dockerfile经验)
 
 #### 逆向部分
 > * [安卓包简单逆向以及修改                                                (已完成)](安卓包简单逆向以及修改)
