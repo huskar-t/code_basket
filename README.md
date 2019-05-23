@@ -27,6 +27,7 @@
 > * [golang特性以及学习                                                    (待补充)](golang特性以及学习)
 > * [beego框架搭建                                                         (已完成)](beego框架搭建)
 > * [用beego框架开发api                                                    (已完成)](用beego框架开发api)
+> * [为golang编译windows程序添加图标和管理员权限                           (已完成)](golang_icon)
 
 #### php部分
 > * [thinkphp框架搭建                                                      (已完成)](thinkphp框架搭建)

@@ -1,0 +1,1 @@
+rsrc.exe -arch amd64 -manifest window_administrator.manifest -ico golang.ico -o myapp.syso
