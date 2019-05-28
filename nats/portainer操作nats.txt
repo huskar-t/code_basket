@@ -1,0 +1,8 @@
+docker run -it -p 0.0.0.0:7222:7222 -p 0.0.0.0:7244:7244 --rm -v $(pwd)/conf/gnatsd-A.conf:/tmp/cluster.conf nats -c /tmp/cluster.conf -p 7222 -D -V
+
+'-v' '/home/nat-conf/A.conf' '-c' '/tmp/cluster.conf' '-p' '7222' '-D' '-V'
+-v /home/nat-conf/A.conf:/tmp/cluster.conf -c /tmp/cluster.conf -p 7222 -D -V
+
+-v /home/nat-conf/B.conf:/tmp/cluster.conf -c /tmp/cluster.conf -p 8222 -D -V
+
+-v /home/nat-conf/C.conf:/tmp/cluster.conf -c /tmp/cluster.conf -p 9222 -D -V

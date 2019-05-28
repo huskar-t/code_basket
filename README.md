@@ -37,10 +37,11 @@
 > * [使用宝塔面板简化运维                                                  (已完成)](使用宝塔面板简化运维)
 > * [supervisor学习使用                                                    (已完成)](supervisor学习使用)
 > * [内网gitlab搭建以及配置内网dns服务器                                   (已完成)](内网gitlab搭建以及配置内网dns服务器)
-> * [Portainer安装(轻量级docker管理)                                   (已完成)](portainer)
-> * [docker 网络模式备注                                   (已完成)](docker网络备注)
-> * [consul操作备注                                   (已完成)](consul操作备注)
-> * [dockerfile经验                                   (已完成)](dockerfile经验)
+> * [Portainer安装(轻量级docker管理)                                       (已完成)](portainer)
+> * [docker 网络模式备注                                                   (已完成)](docker网络备注)
+> * [consul操作备注                                                        (已完成)](consul操作备注)
+> * [nats集群搭建操作                                                        (已完成)](nats)
+> * [dockerfile经验                                                        (已完成)](dockerfile经验)
 
 #### 逆向部分
 > * [安卓包简单逆向以及修改                                                (已完成)](安卓包简单逆向以及修改)
@@ -50,4 +51,4 @@
 > * [redis事务的坑以及解决办法                                             (已完成)](redis事务的坑以及解决办法)
 > * [js以及node.js学习脑图                                                 (已完成)](js以及node.js学习脑图)
 > * [SQL备忘                                                               (已完成)](SQL备忘)
-> * [windows屏幕截图参考工具                                                (已完成)](SETUNA.zip)
+> * [windows屏幕截图参考工具                                               (已完成)](SETUNA.zip)
