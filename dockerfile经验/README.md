@@ -19,7 +19,7 @@ docker build -t client .
 > >* USER daemo  
 > >* USER UID
 > * WORKDIR 设置工作目录，对RUN,CMD,ENTRYPOINT,COPY,ADD生效。如果不存在则会创建，也可以设置多次。 
-> * ARG 设置变量命令，在docker build创建镜像的时候，使用 --build-arg <varname>=<value>来指定参数，如果用户在build镜像时指定了一个参数没有定义在Dockerfile种，那么将有一个Warning
+> * ARG 设置变量命令，在docker build创建镜像的时候，使用 --build-arg <varname>=<value>来指定参数，如果用户在build镜像时指定了一个参数没有定义在Dockerfile中，那么将有一个Warning
 > * ONBUILD 后接命令，该命令只对当前镜像的子镜像生效
 > * STOPSIGNAL 当容器退出时给系统发送的命令
 > * HEALTHCHECK 容器健康状态检查
