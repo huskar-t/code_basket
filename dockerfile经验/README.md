@@ -14,7 +14,7 @@ docker build -t client .
 > * ADD 复制文件到镜像
 > * COPY 复制文件到镜像
 > * ENTRYPOINT 启动时默认命令，只能写一条命令
-> * COLUME 将外部文件夹挂载到这个容器
+> * VOLUME 将外部文件夹挂载到这个容器
 > * USER 设置启动容器的用户，可以是用户名或UID只有下面的两种写法是正确的   
 > >* USER daemo  
 > >* USER UID
