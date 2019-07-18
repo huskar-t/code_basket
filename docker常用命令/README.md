@@ -22,7 +22,7 @@ docker system prune
 ##批量命令
 ```cmd
 停止所有包含test-的容器:
-docker ps -a | grep "test-" | awk '{print $1 }'|xargs docker start
+docker ps -a | grep "test-" | awk '{print $1 }'|xargs docker stop
 
 删除所有包含test-的镜像:
 docker images|grep "test-"|awk '{print $3 }'|xargs docker rmi
