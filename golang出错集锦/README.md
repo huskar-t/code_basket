@@ -1,7 +1,8 @@
-#花式出错
+# 花式出错
 
-##初始化问题
-####map
+## 初始化问题
+
+#### map
 ```go 
 package main
 
@@ -18,8 +19,8 @@ func main() {
 }
 ```
 
-##奇怪的长度(初始化)
-####slice
+## 奇怪的长度(初始化)
+#### slice
 ```go
 package main
 
@@ -43,7 +44,7 @@ func main() {
 }
 
 ```
-##常见创建goroutine错误
+## 常见创建goroutine错误
 ```go
 package main
 
@@ -84,7 +85,7 @@ func main() {
 //
 //}()
 ```
-##定时任务
+## 定时任务
 ```go
 package main
 
