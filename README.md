@@ -30,6 +30,7 @@
 > * [为golang编译windows程序添加图标和管理员权限                           (已完成)](golang_icon)
 > * [golang进行数据聚合优雅操作                                            (已完成)](golang数据聚合)
 > * [golang出错集锦                                                        (随时补充)](golang出错集锦)
+> * [针对mysql时间写入零值异常的解决                                       (已完成)](mysql时间零值异常解决)
 
 #### php部分
 > * [thinkphp框架搭建                                                      (已完成)](thinkphp框架搭建)
