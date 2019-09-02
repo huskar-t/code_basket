@@ -63,4 +63,4 @@
 > * [js以及node.js学习脑图                                                 (已完成)](js以及node.js学习脑图)
 > * [SQL备忘                                                               (已完成)](SQL备忘)
 > * [windows屏幕截图参考工具                                               (已完成)](SETUNA.zip)
-> * [redis性能瓶颈及解决办法                                               (已完成)](SETUNA.zip)
+> * [redis性能瓶颈及解决办法                                               (已完成)](redis瓶颈)
