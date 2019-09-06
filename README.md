@@ -31,6 +31,7 @@
 > * [golang进行数据聚合优雅操作                                            (已完成)](golang数据聚合)
 > * [golang出错集锦                                                        (随时补充)](golang出错集锦)
 > * [针对mysql时间写入零值异常的解决                                       (已完成)](mysql时间零值异常解决)
+> * [gin无静态文件且开启压缩并只获得gin.IRouter对象时渲染html              (已完成)](gin渲染html)
 
 #### php部分
 > * [thinkphp框架搭建                                                      (已完成)](thinkphp框架搭建)
