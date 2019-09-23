@@ -5,15 +5,16 @@ from queue import Queue
 
 
 def bfs(adj, start):
-    visited = set()
+    visited = {}
     q = Queue()
     q.put(start)
     while not q.empty():
         u = q.get()
         print(u)
         for v in adj.get(u, []):
-            if v not in visited:
-                visited.add(v)
+            exist = visited.get(v, False)
+            if not exist:
+                visited[v] = True
                 q.put(v)
 
 
