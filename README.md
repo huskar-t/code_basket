@@ -32,6 +32,7 @@
 > * [golang出错集锦                                                        (随时补充)](golang出错集锦)
 > * [针对mysql时间写入零值异常的解决                                       (已完成)](mysql时间零值异常解决)
 > * [gin无静态文件且开启压缩并只获得gin.IRouter对象时渲染html              (已完成)](gin渲染html)
+> * [小爱自定义技能后端SDK                                               (已完成)](https://gitee.com/t102011/miAI)
 
 #### php部分
 > * [thinkphp框架搭建                                                      (已完成)](thinkphp框架搭建)
