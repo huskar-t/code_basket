@@ -1,8 +1,11 @@
 # k3s + rancher 实操
-单机 k3s 和 rancher 操作、 k3s 集群
+单机 k3s 和 rancher 操作、 k3s 集群  
+已做自动脚本和离线镜像  
+本文作为手动操作记录
 ## 注意事项:
+>* 经测试腾讯云ubuntu 18.04正常
 >* 阿里云单机导入 rancher的配置时 cattle-cluster-agent 网卡为 none CATTLE_SERVER 使用外网 ip 时无法连接,导入时 curl 获取配置使用内网 ip  
->* 腾讯云 centos7.6 环境多次试验 k3s 无法启动 container 从 github 获取镜像手动导入也无效,估计是网络问题必要镜像没有拉取成功,待寻找国内镜像
+>* 腾讯云 centos 7.6 环境多次试验 k3s 无法启动 container 从 github 获取镜像手动导入也无效,估计是网络问题必要镜像没有拉取成功,待寻找国内镜像
 ## 分配swap
 ~~~bash
 dd if=/dev/zero of=/var/swap bs=1024 count=8192000
