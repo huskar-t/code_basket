@@ -32,8 +32,8 @@ if [ `command -v k3s` ];then
     echo 'k3s has installed'
 else
     # 本地安装k3s其他参数通过外部传入
-    INSTALL_K3S_MIRROR=cn
-    INSTALL_K3S_EXEC="--docker --no-deploy traefik --write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666"
+    export K3S_NODE_NAME=${HOSTNAME//_/-}
+    export INSTALL_K3S_EXEC="--docker --kube-apiserver-arg service-node-port-range=1-65000 --no-deploy traefik --write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666"
     curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -
 fi
 echo 'finish'

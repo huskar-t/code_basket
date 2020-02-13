@@ -14,9 +14,10 @@ if [ `command -v docker` ];then
     echo 'docker has installed'
 else
     echo 'install docker'
-    curl https://download.docker.com/linux/centos/docker-ce.repo -o /etc/yum.repos.d/docker-ce.repo
-    yum -y install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+    curl https://download.daocloud.io/docker/linux/centos/docker-ce.repo -o /etc/yum.repos.d/docker-ce.repo
+    yum -y install https://download.daocloud.io/docker/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
     curl -fsSL https://get.daocloud.io/docker | bash -s docker --mirror Aliyun
+    grubby --args="user_namespace.enable=1" --update-kernel="$(grubby --default-kernel)"
 fi
 # 添加加速源
 sudo mkdir -p /etc/docker
@@ -34,8 +35,9 @@ if [ `command -v k3s` ];then
     echo 'k3s has installed'
 else
     # 本地安装k3s其他参数通过外部传入
-    INSTALL_K3S_MIRROR=cn
-    INSTALL_K3S_EXEC="--docker --no-deploy traefik --write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666"
+    export K3S_NODE_NAME=${HOSTNAME//_/-}
+    export INSTALL_K3S_EXEC="--docker --kube-apiserver-arg service-node-port-range=1-65000 --no-deploy traefik --write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666"
     curl -sfL https://docs.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -
 fi
 echo 'finish'
+echo 'need reboot'
