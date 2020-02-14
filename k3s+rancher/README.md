@@ -1,9 +1,11 @@
 # k3s + rancher 实操
 单机 k3s 和 rancher 操作、 k3s 集群  
 已做自动脚本和离线镜像  
-本文作为手动操作记录
+本文作为手动操作记录  
+centos 7 以下内核符合要求  
+Linux master 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ## 问题
->* 安装之后运行 k3s check-config
+>* 安装之后运行 k3s check-config 血的教训,出现错误必须解决
 >* 放弃centos8 提供的iptables版本太高！
 >* 腾讯云 centos 默认主机名不符合k3s node 命名规范 ：指定 INSTALL_K3S_NAME 或修改 /etc/hostname 之后重启
 >* worker 加入 master 失败时注意 K3S_TOKEN 是否正确 (cat /var/lib/rancher/k3s/server/node-token)
@@ -139,3 +141,36 @@ subdomain是在创建pod设定的属性,和hostname可以一起设置
 上述的稳定是持久的同义词，如果应用不需要稳定的标识或者顺序的部署、删除、扩容，则应该使用无状态的副本集。Deployment或者ReplicaSet的控制器更加适合无状态业务场景。
 
 ## 持久化存储 pv/pvc数据卷
+~~~bash
+#master节点安装nfs
+yum -y install nfs-utils
+
+#创建nfs目录
+mkdir -p /nfs/data/
+
+#修改权限
+chmod -R 777 /nfs/data
+
+#编辑export文件
+vim /etc/exports
+/nfs/data *(rw,no_root_squash,sync)
+
+#配置生效
+exportfs -r
+#查看生效
+exportfs
+
+#启动rpcbind、nfs服务
+systemctl restart rpcbind && systemctl enable rpcbind
+systemctl restart nfs && systemctl enable nfs
+
+#查看 RPC 服务的注册状况
+rpcinfo -p localhost
+
+#showmount测试
+showmount -e 192.168.92.56
+
+#所有node节点安装客户端
+yum -y install nfs-utils
+systemctl start nfs && systemctl enable nfs
+~~~
