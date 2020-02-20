@@ -5,6 +5,7 @@
 centos 7 以下内核符合要求  
 Linux master 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ## 问题
+>* micro 服务名不允许有下划线只能大驼峰
 >* 安装之后运行 k3s check-config 血的教训,出现错误必须解决
 >* 放弃centos8 提供的iptables版本太高！
 >* 腾讯云 centos 默认主机名不符合k3s node 命名规范 ：指定 INSTALL_K3S_NAME 或修改 /etc/hostname 之后重启

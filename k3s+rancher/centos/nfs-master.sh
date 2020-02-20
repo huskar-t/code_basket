@@ -28,8 +28,8 @@ systemctl restart rpcbind && systemctl enable rpcbind
 systemctl restart nfs && systemctl enable nfs
 
 #解压文件package文件夹内 config/  nginx/ client.zip
-unzip -o package.zip -d /nfs/data
-unzip -o -O GBK /nfs/data/client.zip -d /nfs/data
+unzip -o -q package.zip -d /nfs/data
+unzip -o -q -O UTF-8 /nfs/data/client.zip -d /nfs/data
 
 #修改权限
 chmod -R 777 /nfs/data
