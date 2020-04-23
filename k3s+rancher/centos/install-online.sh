@@ -27,7 +27,11 @@ fi
 sudo mkdir -p /etc/docker
 tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://q0jtd7v2.mirror.aliyuncs.com"]
+  "registry-mirrors": ["https://q0jtd7v2.mirror.aliyuncs.com"],
+  "log-opts": {
+    "max-size": "100m",
+    "max-file": "3"
+    }
 }
 EOF
 # 启动
